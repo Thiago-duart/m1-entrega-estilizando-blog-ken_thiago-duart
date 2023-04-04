@@ -48,10 +48,10 @@ span{
 div, #artilcle-two,#artilcle-three,#artilcle-four{
     margin-top: 30px;
 }
-#input-email, ::placeholder{
-    height: 20px;
-    
-    
+#input-email{
+    height: 21px;
+    border: black solid 1px;
+    border-radius: 5px;
 }
 #form-email, #input-p{
     width: 500px;
@@ -68,11 +68,15 @@ label{
 }
 
 button{
-    height: 24px;   
+    width: 130px;
+    height: 24px; 
+    background-color: #497a8c;  
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
 }
 button:hover{
     background-color: rgb(13, 138, 216);
-    border: 1px solid black;
     color: white;
     transition: all 0.01s ease-in-out;
 }
