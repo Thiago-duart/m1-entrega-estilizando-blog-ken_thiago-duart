@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #497a8c;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+h2{
+    color: blue;
+}
+p{
+    text-align: justify;
+}
+
+#header-title{
+    font-size: 25px;
+    margin-left: 10%;
+    color: blue;
+
+}
+
+.container-articles {
+    border: 1px solid blue;
+    margin: 25px auto auto;
+    width: 700px;
+    text-align: center;
+    padding: 15px;
+   
+  }
+
+nav,a{
+    text-align: left;
+    text-decoration: none;
+}
+img {
+    float: left;
+    border-radius: 50%;
+}
+span{
+    float: left;
+}
+div, #artilcle-two,#artilcle-three,#artilcle-four{
+    margin-top: 30px;
+}
+#input-email, ::placeholder{
+    height: 20px;
+    
+    
+}
+#form-email, #input-p{
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+}
+#input-p{
+    color: rgb(255, 230, 2);
+}
+
+label{
+    color: blue;
+    font-size: 20px;
+}
+
+button{
+    height: 24px;   
+}
+button:hover{
+    background-color: rgb(13, 138, 216);
+    border: 1px solid black;
+    color: white;
+    transition: all 0.01s ease-in-out;
+}
+
+footer{
+    margin-left: 10%;
+    position: absolute;
+}
+
+/*da proxima fica mais bonito e com menos gambiarra */
+
+
+ 
+
+
+
+
