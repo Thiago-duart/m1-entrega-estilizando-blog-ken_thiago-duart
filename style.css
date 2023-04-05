@@ -45,7 +45,7 @@ img {
 span{
     float: left;
 }
-div, #artilcle-two,#artilcle-three,#artilcle-four{
+section, #artilcle-two,#artilcle-three,#artilcle-four{
     margin-top: 30px;
 }
 #input-email{
